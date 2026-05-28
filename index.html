@@ -902,13 +902,17 @@ import{getFirestore,doc,getDoc,setDoc,collection,addDoc,updateDoc,deleteDoc,onSn
 import{getDatabase,ref,set,onValue,onDisconnect,serverTimestamp as rtTs,remove,push,get}from"https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
 const FB={
-  apiKey:"AIzaSyCwVbAK315T8iuRs1ViGUvVOKT6XB9o8eE",
-  authDomain:"zeitplan-974cb.firebaseapp.com",
-  databaseURL:"https://zeitplan-974cb-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId:"zeitplan-974cb",
-  storageBucket:"zeitplan-974cb.firebasestorage.app",
-  messagingSenderId:"481440154792",
-  appId:"1:481440154792:web:2843ac6f8cae8eb32cae9d"
+  apiKey:"AIzaSyAyaJDYSlVE6XcnM582UecdGa8V2HeHozU",
+  authDomain:"journal-be7b5.firebaseapp.com",
+  // ⚠️ REPLACE this URL after enabling Realtime Database in the Firebase Console
+  // Go to: Build → Realtime Database → Create database → pick Europe (belgium)
+  // Then copy the URL shown there (looks like: https://journal-be7b5-default-rtdb.europe-west1.firebasedatabase.app)
+  databaseURL:"https://journal-be7b5-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId:"journal-be7b5",
+  storageBucket:"journal-be7b5.firebasestorage.app",
+  messagingSenderId:"760439280598",
+  appId:"1:760439280598:web:930321898c387a82bd8a77",
+  measurementId:"G-73HBSEJTHR"
 };
 const app=initializeApp(FB);
 const db=getFirestore(app);
